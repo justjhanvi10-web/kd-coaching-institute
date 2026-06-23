@@ -80,7 +80,7 @@
      Paste the deployed Web App URL below (it should start with
      https://script.google.com/macros/s/.../exec ). Until it is set, the form
      still works and keeps a local backup, but rows won't reach the sheet. */
-  var SHEET_ENDPOINT = "PASTE_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE";
+  var SHEET_ENDPOINT = "https://script.google.com/macros/s/AKfycbysJ1jklFFjS7130m4nojqGSd7QTcH0rIND5KNMhdvDYr6tH3Z8Bky_wquefvupxBS8eA/exec";
 
   var form = document.getElementById("waitlist-form");
   if (form) {
